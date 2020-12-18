@@ -617,7 +617,7 @@ static ssize_t sensor_read(struct file *filep, char __user *buf, size_t count,
 
 	// printk(KERN_INFO "new\n");
 
-	int usecs = 30;
+	int usecs = 300;
 	int rf = 0, lf = 0, r = 0, l = 0;
 	int orf = 0, olf = 0, or = 0, ol = 0;
 
